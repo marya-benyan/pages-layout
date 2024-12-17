@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            background-color: #ffffff;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column; /* ترتيب العناصر عمودياً */
+            width: 300px;
+            border-radius: 25px;
+            flex-wrap: wrap;background-color: #ffe26c;
+        }
+
+        .row {
+            border-bottom: 1px solid #ccc;
+            padding: 15px;
+            font-size: 18px;
+        }
+        img{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            padding: 10px;
+            top:20px
+        }
+span{
+   font-weight: bold;
+}
+        .row:last-child {
+            border-bottom: none; /* إزالة الحدود من آخر صف */
+        }
+    </style>
+
+    <div class="container">
+        <div class="row"><img src="images.jpm.png" ><span>User#1</span><br><p>IOS development</p></div>
+        <div class="row"><img src="images.jpm.png" ><span>User#2</span><br><p>computer programming</div>
+        <div class="row"><img src="images.jpm.png" ><span>User#3</span><br><p>softwere engineering</div>
+        <div class="row"><img src="images.jpm.png" ><span>User#4</span><br><p>computer engineering</div>
+    </div>
+</body></html>
+

@@ -1,0 +1,68 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.section1 {
+    background-color: green;
+    color: white;
+    text-align: center;
+    grid-column: span 3;
+    padding: 10px;   
+}
+
+.section2 {
+    background-color: peachpuff;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    background-color:burlywood;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-row: span 2;
+    grid-column: span 2;
+}
+
+.section3 {
+    background-color: #556b2f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-row: span 2
+}
+
+.extra-content {
+    background-color: gainsboro;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-column: span 2;   
+}
+
+.related-image {
+    background-color: skyblue;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    grid-column: span 2;    
+}
+  
+.related-post {
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    grid-column: span 3;
+    padding: 15px;
+}
